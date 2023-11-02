@@ -3,6 +3,7 @@ import { CacheProvider } from "@emotion/react";
 import { ThemeProvider } from "@mui/material";
 import CssBaseline from "@mui/material/CssBaseline";
 import { createTheme } from "@mui/material/styles";
+import Layout from "components/Layout";
 import { fontFamily } from "fonts";
 import type { AppProps as NextAppProps } from "next/app";
 import { baseTheme } from "theme/base";
@@ -25,7 +26,9 @@ const App = (props: AppProps) => {
           }
         `}</style>
         <CssBaseline />
-        <Component {...pageProps} />
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
       </ThemeProvider>
     </CacheProvider>
   );
