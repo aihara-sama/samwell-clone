@@ -10,11 +10,11 @@ const links: ILink[] = [
   },
   {
     title: "Pricing",
-    href: "upgrade",
+    href: "/upgrade",
   },
   {
     title: "Influencer Program",
-    href: "affiliate",
+    href: "/affiliate",
   },
 ];
 
