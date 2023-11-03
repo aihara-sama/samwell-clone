@@ -33,7 +33,16 @@ const Header: FunctionComponent<IProps> = () => {
   return (
     <Box
       component="header"
-      sx={{ py: 3, px: 4, position: "sticky", top: 0, background: "#fff" }}
+      sx={{
+        py: 3,
+        px: 4,
+        position: "fixed",
+        top: 0,
+        background: "#fff",
+        zIndex: 1,
+        right: 0,
+        left: 0,
+      }}
       display="flex"
       justifyContent="space-between"
       alignItems="center"
