@@ -1,8 +1,10 @@
 import type { FunctionComponent } from "react";
 
-interface IProps {}
+interface IProps {
+  color: string;
+}
 
-const CursorIcon: FunctionComponent<IProps> = () => {
+const CursorIcon: FunctionComponent<IProps> = ({ color }) => {
   // ~~~~~ Redux state ~~~~~
 
   // ~~~~~ Hooks ~~~~~
@@ -32,14 +34,14 @@ const CursorIcon: FunctionComponent<IProps> = () => {
         width="2.98215"
         height="18.3333"
         rx="1"
-        fill="currentColor"
+        fill={color}
       />
       <ellipse
         cx="3.78036"
         cy="3.74392"
         rx="3.28036"
         ry="3.36111"
-        fill="currentColor"
+        fill={color}
       />
     </svg>
   );

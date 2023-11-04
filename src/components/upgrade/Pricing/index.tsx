@@ -48,6 +48,7 @@ const Pricing: FunctionComponent<IProps> = () => {
           color="#923ed4"
           fontWeight={700}
           textTransform="uppercase"
+          fontSize={{ xs: 14, md: 16 }}
         >
           Pricing
         </Typography>
@@ -56,7 +57,7 @@ const Pricing: FunctionComponent<IProps> = () => {
           textAlign="center"
           fontWeight={500}
           color="#111111"
-          fontSize={46}
+          fontSize={{ xs: 28, md: 46 }}
         >
           You‘re in control
         </Typography>

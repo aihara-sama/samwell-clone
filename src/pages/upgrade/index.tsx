@@ -1,5 +1,6 @@
 import { Box } from "@mui/material";
 import Pricing from "components/upgrade/Pricing";
+import Testimonials from "components/upgrade/Testimonials";
 import type { NextPage } from "next";
 
 interface IProps {}
@@ -23,6 +24,7 @@ const UpgradePage: NextPage<IProps> = () => {
   return (
     <Box>
       <Pricing />
+      <Testimonials />
     </Box>
   );
 };
