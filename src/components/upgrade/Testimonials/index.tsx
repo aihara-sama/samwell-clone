@@ -112,6 +112,7 @@ const Testimonials: FunctionComponent<IProps> = () => {
                       borderRadius: "100%",
                       width: "35px",
                       height: "35px",
+                      backgroundColor: testimonial.primaryClr,
                     }}
                   />
                   <Box display="flex" flexDirection="column">
